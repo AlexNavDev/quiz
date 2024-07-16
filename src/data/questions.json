@@ -1,0 +1,1305 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "JavaScript",
+      "level": [
+        {
+          "basic": [
+            {
+              "questionName": "¿Cuál de los siguientes tipos de datos NO existe?",
+              "options": [
+                "A) String",
+                "B) Number",
+                "C) Boolean",
+                "D) Character"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "JS-B1",
+                  "title": "Tipos de Datos",
+                  "summary": "Los principales tipos de datos en JavaScript son: String, Number, Boolean, Undefined, Null, Object, Symbol, BigInt"
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es el resultado de la expresión 2 + \"2\"?",
+              "options": ["A) 22", "B) 4", "C) NaN", "D) Undefined"],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "JS-B2",
+                  "title": "Coerción de Tipos",
+                  "summary": "En JavaScript, el operador + tiene un comportamiento especial cuando se usa con diferentes tipos. En la expresión 2 + \"2\", uno de los operandos es un número (2) y el otro es una cadena (\"2\"). JavaScript realiza la coerción de tipos, convirtiendo el número 2 a una cadena \"2\". Luego, concatena ambas cadenas."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál de las siguientes NO es una palabra reservada?",
+              "options": ["A) Interface", "B) Throws", "C) Program", "D) Enum"],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "JS-B3",
+                  "title": "Palabras Reservadas",
+                  "summary": "JavaScript tiene una lista de palabras reservadas que no pueden ser utilizadas para otros propósitos ya que tienen un significado específico en la sintaxis y funcionamiento del lenguaje."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué operador verifica tanto el valor como el tipo?",
+              "options": ["A) ==", "B) ===", "C) !=", "D) !=="],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "JS-B4",
+                  "title": "Operadores de comparación",
+                  "summary": "JavaScript ofrece varios operadores de comparación, incluyendo aquellos que verifican tanto el valor como el tipo de los operandos. El operador de comparación estricta (===) verifica tanto el valor como el tipo de los operandos. Esto significa que solo devuelve true si ambos operandos son del mismo tipo y tienen el mismo valor."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué método convierte una cadena a un número entero?",
+              "options": [
+                "A) parseInt()",
+                "B) parseFloat()",
+                "C) Number()",
+                "D) toFixed()"
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "JS-B5",
+                  "title": "Conversión de tipos",
+                  "summary": "Conversión de tipos es un proceso donde se convierte un valor de un tipo de dato a otro. En JavaScript, hay varios métodos disponibles para convertir una cadena de texto (string) a un número entero (integer). El método más común para convertir una cadena a un número entero en JavaScript es parseInt."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué método agrega uno o más elementos al inicio de un array?",
+              "options": [
+                "A) push()",
+                "B) pop()",
+                "C) shift()",
+                "D) unshift()"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "JS-B6",
+                  "title": "Métodos de Manipulación de Arrays",
+                  "summary": "En JavaScript, para agregar uno o más elementos al inicio de un array, se utiliza el método unshift(). Este método modifica el array original y añade los elementos especificados al principio de la lista. A diferencia de otros métodos como push(), que añade elementos al final del array, unshift() los coloca al inicio, desplazando los elementos existentes hacia la derecha."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué método devuelve la primera posición de un elemento en un array?",
+              "options": [
+                "A) indexOf()",
+                "B) find()",
+                "C) map()",
+                "D) filter()"
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "JS-B7",
+                  "title": "Métodos de Búsqueda en Arrays",
+                  "summary": "En JavaScript, para encontrar la primera posición (índice) de un elemento en un array, se utiliza el método indexOf(). Este método recorre el array desde el inicio hasta el final y devuelve el índice de la primera aparición del elemento especificado. Si el elemento no se encuentra, el método devuelve -1."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué hace el modo estricto ('use strict')?",
+              "options": [
+                "A) Habilita nuevas funciones de ES6",
+                "B) Hace el código más seguro",
+                "C) Ejecuta el código en modo estricto",
+                "D) Activa la depuración"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "JS-B8",
+                  "title": "Modo Estricto",
+                  "summary": "El modo estricto en JavaScript es una característica que se introdujo en ECMAScript 5 (ES5) para permitir a los desarrolladores escribir un código más seguro y robusto. Se activa añadiendo la declaración \"use strict\"; al comienzo de un script o una función."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué método se utiliza para agregar uno o más elementos al final de un array?",
+              "options": [
+                "A) push()",
+                "B) pop()",
+                "C) unshift()",
+                "D) shift()"
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "JS-B9",
+                  "title": "Métodos de Array",
+                  "summary": "En JavaScript, el método utilizado para agregar uno o más elementos al final de un array es el método push(). Este método modifica el array original añadiendo los elementos especificados al final y devuelve la nueva longitud del array."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué es el DOM?",
+              "options": [
+                "A) Un lenguaje de programación",
+                "B) Una interfaz para documentos HTML y XML",
+                "C) Una base de datos",
+                "D) Un protocolo de datos"
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "JS-B10",
+                  "title": "Document Object Model (DOM)",
+                  "summary": "Es una interfaz de programación para documentos HTML y XML. En JavaScript, el DOM permite a los desarrolladores acceder y manipular la estructura, el estilo y el contenido de un documento web de manera dinámica. El DOM representa el documento como un árbol de nodos, donde cada nodo corresponde a una parte del documento, como elementos, atributos y texto."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intermediate": [
+            {
+              "questionName": "¿Cuál es el resultado de 0.1 + 0.2 === 0.3?",
+              "options": ["A) True", "B) False", "C) Undefined", "D) NaN"],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "JavaScript-I1",
+                  "title": "Comparación de números",
+                  "summary": "En JavaScript, los números de punto flotante pueden tener precisiones limitadas debido a la representación interna binaria. Por lo tanto, la comparación directa de números como 0.1 + 0.2 === 0.3 podría dar como resultado falso debido a pequeñas diferencias de redondeo."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué método convierte un objeto a una cadena JSON?",
+              "options": [
+                "A) JSON.parse()",
+                "B) JSON.stringify()",
+                "C) JSON.convert()",
+                "D) JSON.toString()"
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "JavaScript-I2",
+                  "title": "Conversión de objetos a JSON",
+                  "summary": "JSON.stringify() es el método en JavaScript que convierte un objeto JavaScript en una cadena JSON. Esto es útil para enviar datos a través de redes o para almacenamiento persistente."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es el valor de x después de ejecutar let x = 5; x += 3;?",
+              "options": ["A) 3", "B) 5", "C) 8", "D) 10"],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "JavaScript-I3",
+                  "title": "Operadores de asignación",
+                  "summary": "El operador += en JavaScript realiza una adición y asignación al mismo tiempo. En este caso, x += 3 suma 3 a x (que inicialmente es 5), resultando en x = 8."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué hace el operador ?? (nullish coalescing)?",
+              "options": [
+                "A) Compara dos valores",
+                "B) Encadena promesas",
+                "C) Combina dos objetos",
+                "D) Devuelve el primer valor no nulo o indefinido"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "JavaScript-I4",
+                  "title": "Nullish Coalescing Operator en JavaScript",
+                  "summary": "El operador ?? en JavaScript devuelve su primer operando si este no es null ni undefined. Es útil para proporcionar un valor de respaldo cuando se desea un valor predeterminado para variables que podrían ser null o undefined."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué es un closure?",
+              "options": [
+                "A) Una función que llama a otra función",
+                "B) Una función que tiene acceso a su propio ámbito léxico",
+                "C) Una función que no tiene acceso al ámbito global",
+                "D) Un objeto que se utiliza para almacenar datos"
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "JavaScript-I5",
+                  "title": "Closures en JavaScript",
+                  "summary": "Un closure en JavaScript es una función que tiene acceso a variables en su ámbito léxico, incluso después de que la función haya terminado de ejecutarse. Esto permite que las funciones en JavaScript mantengan referencias a variables independientes del ámbito global."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué es el Event Loop?",
+              "options": [
+                "A) Un mecanismo que permite la ejecución no bloqueante de código",
+                "B) Un mecanismo de JavaScript para manejar eventos",
+                "C) Una estructura de datos para almacenar eventos",
+                "D) Un método para capturar y manejar errores en tiempo de ejecución"
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "JavaScript-I6",
+                  "title": "Event Loop en JavaScript",
+                  "summary": "El Event Loop es un mecanismo en JavaScript que maneja la ejecución asíncrona. Permite que JavaScript maneje múltiples tareas en segundo plano y las encole en una pila de eventos para su ejecución cuando el hilo principal esté desocupado."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué es la recursión?",
+              "options": [
+                "A) Un método para llamar funciones de manera asíncrona",
+                "B) Una estructura de control que repetir un bloque de código",
+                "C) Una función se llama a sí misma directa o indirectamente",
+                "D) Una función que maneja errores de manera recursiva"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "JavaScript-I7",
+                  "title": "Recursión en JavaScript",
+                  "summary": "La recursión en JavaScript es una técnica donde una función se llama a sí misma directa o indirectamente. Es útil para resolver problemas que se pueden dividir en casos más pequeños y manejarlos de manera más elegante y compacta."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué es un callback?",
+              "options": [
+                "A) Una función que se llama automáticamente",
+                "B) Un método para iterar sobre todos los elementos de un array",
+                "C) Un método para manejar errores en JavaScript",
+                "D) Una función que se pasa como argumento a otra función"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "JavaScript-I8",
+                  "title": "Callbacks en JavaScript",
+                  "summary": "Un callback en JavaScript es una función que se pasa como argumento a otra función y se invoca después de que ocurra un evento o se complete una tarea asincrónica. Es fundamental para la programación asincrónica en JavaScript, permitiendo que ciertos fragmentos de código se ejecuten solo cuando se cumplan ciertas condiciones o eventos."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué son los prototipos?",
+              "options": [
+                "A) Son funciones que permiten crear múltiples instancias",
+                "B) Son objetos en los cuales se basan otros objetos",
+                "C) Son métodos para definir propiedades en un objeto",
+                "D) Son eventos que se ejecutan cuando ocurre una acción"
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "JavaScript-I9",
+                  "title": "Prototipos en JavaScript",
+                  "summary": "Los prototipos en JavaScript son objetos en los cuales se basan otros objetos. Cada objeto en JavaScript tiene un prototipo, que actúa como una plantilla para ese objeto, proporcionando propiedades y métodos que son heredados."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué son las promesas?",
+              "options": [
+                "A) Objetos que representan el resultado eventual de una operación asincrónica",
+                "B) Métodos para ejecutar código de manera síncrona",
+                "C) Funciones que permiten manejar errores de forma asincrónica",
+                "D) Métodos para realizar operaciones matemáticas complejas"
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "JavaScript-I10",
+                  "title": "Promesas en JavaScript",
+                  "summary": "Las promesas en JavaScript son objetos que representan el resultado eventual de una operación asincrónica. Permiten manejar secuencias de operaciones asíncronas de manera más legible y fácil de manejar, evitando el uso excesivo de callbacks y mejorando la organización del código."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "categoryName": "HTML",
+      "level": [
+        {
+          "basic": [
+            {
+              "questionName": "¿Cuál es el elemento adecuado para insertar una línea horizontal?",
+              "options": ["A) <line>", "B) <hl>", "C) <break>", "D) <hr>"],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "HTML-B1",
+                  "title": "Elemento <hr>",
+                  "summary": "El elemento HTML <hr> se utiliza para insertar una línea horizontal temática en un documento HTML. Es auto-cerrado y se usa para separar contenidos."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la etiqueta correcta para un encabezado de primer nivel?",
+              "options": ["A) <head>", "B) <h1>", "C) <header>", "D) <h>"],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "HTML-B2",
+                  "title": "Elemento <h1>",
+                  "summary": "El elemento HTML <h1> se utiliza para definir el encabezado de primer nivel en un documento HTML. Es importante usar <h1> para la jerarquía correcta de encabezados."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es el atributo que se utiliza para definir estilos en línea?",
+              "options": ["A) style", "B) class", "C) id", "D) format"],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "HTML-B3",
+                  "title": "Atributo 'style'",
+                  "summary": "El atributo 'style' se utiliza en HTML para definir estilos en línea para un elemento específico. Permite aplicar estilos CSS directamente dentro de la etiqueta de un elemento."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la etiqueta correcta para insertar una imagen?",
+              "options": ["A) <image>", "B) <img>", "C) <picture>", "D) <src>"],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "HTML-B4",
+                  "title": "Elemento <img>",
+                  "summary": "El elemento HTML <img> se utiliza para insertar una imagen en un documento HTML. Requiere del atributo 'src' para especificar la URL de la imagen que se va a mostrar."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es el elemento adecuado para crear una lista ordenada?",
+              "options": ["A) <ul>", "B) <list>", "C) <ol>", "D) <order>"],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "HTML-B5",
+                  "title": "Elemento <ol>",
+                  "summary": "El elemento HTML <ol> se utiliza para crear una lista ordenada, donde cada elemento de la lista se numerará automáticamente."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué atributo se utiliza para abrir un enlace en una nueva pestaña o ventana?",
+              "options": ["A) href", "B) src", "C) rel", "D) target"],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "HTML-B6",
+                  "title": "Atributo 'target'",
+                  "summary": "El atributo 'target' se utiliza en la etiqueta <a> para especificar dónde abrir el enlace. Para abrir un enlace en una nueva pestaña o ventana, se utiliza 'target=\"_blank\"'."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es el elemento correcto para crear un enlace?",
+              "options": ["A) <link>", "B) <href>", "C) <a>", "D) <url>"],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "HTML-B7",
+                  "title": "Elemento <a>",
+                  "summary": "El elemento HTML <a> se utiliza para crear un enlace o hipervínculo a otra página o recurso. Requiere del atributo 'href' para especificar la URL de destino."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es el atributo que se utiliza para agrupar elementos en una tabla?",
+              "options": ["A) group", "B) tbody", "C) table", "D) td"],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "HTML-B8",
+                  "title": "Elemento <tbody>",
+                  "summary": "El elemento HTML <tbody> se utiliza para agrupar filas (<tr>) en una tabla (<table>). Es parte de la estructura básica para organizar y formatear datos tabulares."
+                }
+              ]
+            },
+            {
+              "questionName": "Qué elemento se utiliza para crear un salto de línea?",
+              "options": ["A) <line>", "B) <br>", "C) <nl>", "D) <lb>"],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "HTML-B9",
+                  "title": "Elemento <br>",
+                  "summary": "El elemento HTML <br> se utiliza para insertar un salto de línea o un quiebre de línea en un documento HTML, sin afectar la estructura del texto que lo rodea."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es el elemento que se utiliza para definir el título de un documento?",
+              "options": ["A) <title>", "B) <head>", "C) <h1>", "D) <header>"],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "HTML-B10",
+                  "title": "Elemento <title>",
+                  "summary": "El elemento HTML <title> se utiliza dentro del elemento <head> para definir el título del documento HTML que se muestra en la pestaña del navegador o en los resultados de búsqueda."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intermediate": [
+            {
+              "questionName": "¿Cuál es la diferencia entre los elementos <div> y <span>?",
+              "options": [
+                "A) <div> es un contenedor en bloque y <span> es un contenedor en línea",
+                "B) <div> es solo para estilos CSS y <span> solo para JavaScript",
+                "C) <div> y <span> son equivalentes en todos los sentidos",
+                "D) <div> es para contenido multimedia y <span> para texto"
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "HTML-I1",
+                  "title": "Diferencias entre <div> y <span>",
+                  "summary": "<div> es un contenedor en bloque que ocupa todo el ancho disponible, mientras que <span> es un contenedor en línea que solo ocupa el ancho necesario para su contenido."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la función del atributo 'alt' en la etiqueta <img>?",
+              "options": [
+                "A) Define el tamaño de la imagen",
+                "B) Enlaza la imagen a otra página",
+                "C) Proporciona un texto alternativo si la imagen no se puede mostrar",
+                "D) Cambia el formato de la imagen"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "HTML-I2",
+                  "title": "Función del atributo 'alt'",
+                  "summary": "El atributo 'alt' proporciona un texto alternativo que se muestra si la imagen no se puede cargar. También es útil para la accesibilidad."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué atributo se usa para especificar un identificador único para un elemento?",
+              "options": ["A) class", "B) id", "C) name", "D) unique"],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "HTML-I3",
+                  "title": "Atributo 'id'",
+                  "summary": "El atributo 'id' se utiliza para asignar un identificador único a un elemento HTML, permitiendo que sea fácilmente referenciado por CSS y JavaScript."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la función de la etiqueta <meta> en un documento?",
+              "options": [
+                "A) Definir estilos CSS",
+                "B) Insertar scripts de JavaScript",
+                "C) Proveer metadatos sobre el documento",
+                "D) Agregar enlaces a otros documentos"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "HTML-I4",
+                  "title": "Etiqueta <meta>",
+                  "summary": "La etiqueta <meta> se utiliza dentro del elemento <head> de un documento HTML para proporcionar metadatos como el autor del documento, la descripción y las palabras clave, que son útiles para los motores de búsqueda y otros servicios."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué etiqueta define la fila de una tabla?",
+              "options": ["A) <td>", "B) <tr>", "C) <th>", "D) <table>"],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "HTML-I5",
+                  "title": "Fila de una Tabla",
+                  "summary": "La etiqueta <tr> se utiliza en HTML para definir una fila en una tabla."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué define la etiqueta <td>?",
+              "options": [
+                "A) Un enlace",
+                "B) Un encabezado en una tabla",
+                "C) Un contenedor",
+                "D) Una celda en una tabla"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "HTML-I6",
+                  "title": "Celda en una Tabla",
+                  "summary": "La etiqueta <td> define una celda estándar dentro de una tabla en HTML."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la diferencia principal entre la propiedad 'contenteditable' y la etiqueta <textarea>?",
+              "options": [
+                "A) 'contenteditable' permite solo texto plano, mientras que <textarea> permite HTML",
+                "B) 'contenteditable' es un atributo, mientras que <textarea> es una etiqueta de formulario",
+                "C) 'contenteditable' permite la edición de cualquier elemento, mientras que <textarea> es solo para texto de varias líneas",
+                "D) 'contenteditable' se usa solo en navegadores modernos, mientras que <textarea> es compatible con todos"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "HTML-I7",
+                  "title": "Propiedad 'contenteditable' vs Etiqueta <textarea>",
+                  "summary": "La propiedad 'contenteditable' puede aplicarse a cualquier elemento HTML para hacer su contenido editable por el usuario, permitiendo incluso la inclusión de HTML. Por otro lado, <textarea> es un elemento HTML específico diseñado para la entrada de texto plano, y tiene un comportamiento y estilo predeterminado más consistente."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la etiqueta de que se utiliza como contenedor del contenido principal?",
+              "options": [
+                "A) <article>",
+                "B) <main>",
+                "C) <section>",
+                "D) <aside>"
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "HTML-I8",
+                  "title": "Contenedor del Contenido Principal",
+                  "summary": "La etiqueta <main> se utiliza en HTML para definir el contenido principal de un documento."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué tipos de gráficos son compatibles con HTML5?",
+              "options": [
+                "A) TIFF y RAW",
+                "B) JPEG y PNG",
+                "C) GIF y BMP",
+                "D) Canvas y SVG"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "HTML-I9",
+                  "title": "Gráficos en HTML5",
+                  "summary": "HTML5 es compatible con gráficos mediante los elementos Canvas y SVG. Canvas se utiliza para renderizar gráficos dinámicos mediante scripting, mientras que SVG es un formato basado en XML para gráficos vectoriales."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la función de la etiqueta <template>?",
+              "options": [
+                "A) Definir un estilo CSS común",
+                "B) Almacenar contenido que no se renderiza de inmediato",
+                "C) Crear un nuevo contexto de navegación",
+                "D) Definir un bloque de código JavaScript"
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "HTML-I10",
+                  "title": "Etiqueta <template>",
+                  "summary": "La etiqueta <template> se usa para almacenar fragmentos de contenido que no se renderizan al cargar la página, sino que se pueden clonar y utilizar posteriormente mediante JavaScript. Esto permite insertar contenido dinámicamente sin necesidad de cargarlo al inicio."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "categoryName": "Css",
+      "level": [
+        {
+          "basic": [
+            {
+              "questionName": "¿Qué significa CSS?",
+              "options": [
+                "A) Computer Style Sheets",
+                "B) Cascading Style Sheets",
+                "C) Colorful Style Sheets",
+                "D) Creative Style Sheets"
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "CSS-B1",
+                  "title": "Definición de CSS",
+                  "summary": "CSS significa Cascading Style Sheets, que es un lenguaje utilizado para describir la presentación de un documento escrito en HTML o XML."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cómo se inserta un comentario en un archivo?",
+              "options": [
+                "A) // Este es un comentario",
+                "B) <!-- Este es un comentario -->",
+                "C) /* Este es un comentario */",
+                "D) # Este es un comentario"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "CSS-B2",
+                  "title": "Comentarios en CSS",
+                  "summary": "Los comentarios en CSS se insertan usando /* al inicio y */ al final del comentario."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué propiedad se usa para cambiar el color de fondo de un elemento?",
+              "options": [
+                "A) color",
+                "B) bgcolor",
+                "C) background-color",
+                "D) color-background"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "CSS-B3",
+                  "title": "Color de Fondo",
+                  "summary": "La propiedad background-color se usa para cambiar el color de fondo de un elemento en CSS."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué propiedad se usa para cambiar el color del texto de un elemento?",
+              "options": [
+                "A) text-color",
+                "B) font-color",
+                "C) color",
+                "D) text-style"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "CSS-B4",
+                  "title": "Color del Texto",
+                  "summary": "La propiedad color se usa para cambiar el color del texto de un elemento en CSS."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la diferencia entre id y class en CSS?",
+              "options": [
+                "A) No hay ninguna diferencia.",
+                "B) Un id es más específico que una class.",
+                "C) Un id solo se usa para JavaScript, mientras que una class se usa para CSS.",
+                "D) Un id es único en el documento, mientras que una class puede ser reutilizada en múltiples elementos."
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "CSS-B5",
+                  "title": "Diferencia entre id y class",
+                  "summary": "La principal diferencia entre id y class en CSS es que un id debe ser único en el documento y se usa para identificar un único elemento, mientras que una class puede ser reutilizada en múltiples elementos para aplicar estilos comunes. Además, los selectores de id tienen una mayor especificidad que los selectores de class."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la sintaxis correcta para seleccionar todos los elementos <p> en una hoja de estilo?",
+              "options": ["A) p { }", "B) <p> { }", "C) #p { }", "D) *p { }"],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "CSS-B6",
+                  "title": "Selección de Elementos",
+                  "summary": "Para seleccionar todos los elementos <p> en CSS, se usa la sintaxis p { }."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué propiedad se usa para cambiar la fuente de texto de un elemento?",
+              "options": [
+                "A) font-style",
+                "B) text-style",
+                "C) font-family",
+                "D) font-weight"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "CSS-B7",
+                  "title": "Fuente de Texto",
+                  "summary": "La propiedad font-family se usa para cambiar la fuente del texto de un elemento en CSS."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cómo se define una clase?",
+              "options": ["A) @class", "B) #class", "C) class", "D) .class"],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "CSS-B8",
+                  "title": "Definición de Clase",
+                  "summary": "En CSS, una clase se define utilizando un punto (.) seguido del nombre de la clase, por ejemplo: .class."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué propiedad se usa para cambiar el tamaño del texto?",
+              "options": [
+                "A) font-size",
+                "B) text-size",
+                "C) size",
+                "D) font-weight"
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "CSS-B9",
+                  "title": "Tamaño del Texto",
+                  "summary": "La propiedad font-size se usa para cambiar el tamaño del texto de un elemento en CSS."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué propiedad se usa para añadir un borde a un elemento?",
+              "options": [
+                "A) border-style",
+                "B) border-width",
+                "C) border",
+                "D) border-color"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "CSS-B10",
+                  "title": "Bordes",
+                  "summary": "La propiedad border se usa para añadir un borde a un elemento en CSS. Puede combinar el estilo, el grosor y el color del borde."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intermediate": [
+            {
+              "questionName": "¿Qué propiedad se usa para crear un espacio entre el borde de un elemento y su contenido?",
+              "options": ["A) margin", "B) padding", "C) border", "D) spacing"],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "CSS-I1",
+                  "title": "Propiedad Padding",
+                  "summary": "La propiedad padding se usa para crear un espacio entre el borde de un elemento y su contenido."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la diferencia principal entre 'display: none' y 'visibility: hidden'?",
+              "options": [
+                "A) 'display: none' elimina el elemento del flujo, 'visibility: hidden' solo lo oculta.",
+                "B) 'display: none' oculta solo el texto, 'visibility: hidden' oculta todo el elemento.",
+                "C) 'display: none' oculta en pantallas pequeñas, 'visibility: hidden' en todas.",
+                "D) No hay diferencia."
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "CSS-I2",
+                  "title": "Diferencia entre display: none y visibility: hidden",
+                  "summary": "'display: none' oculta el elemento y lo elimina del flujo del documento, mientras que 'visibility: hidden' solo lo oculta pero mantiene su espacio ocupado."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué significa el valor \"inherit\" cuando se aplica a una propiedad CSS?",
+              "options": [
+                "A) El elemento usará el valor predeterminado del navegador",
+                "B) El elemento heredará el valor de su padre",
+                "C) El elemento no aplicará ningún valor para esa propiedad",
+                "D) El elemento usará un valor aleatorio"
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "CSS-I1",
+                  "title": "Valor Inherit",
+                  "summary": "Cuando se aplica el valor  inherit a una propiedad CSS, el elemento tomará el valor computado de esa propiedad de su elemento padre. Esto es útil para mantener la consistencia en el diseño y reducir la repetición de código."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cómo se crea una transición suave de un color a otro?",
+              "options": [
+                "A) transition-color: smooth(red, blue);",
+                "B) animate-color: red to blue 1s;",
+                "C) transition: color 1s ease-in-out;",
+                "D) color-transition: red, blue 1s ease;"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "CSS-I4",
+                  "title": "Transiciones en CSS",
+                  "summary": "Para crear una transición suave de un color a otro, se usa la propiedad transition junto con background-color y el tiempo de la transición."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué propiedad se utiliza para crear una cuadrícula de diseño?",
+              "options": ["A) flex", "B) layout", "C) table", "D) grid"],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "CSS-I5",
+                  "title": "Propiedad Grid",
+                  "summary": "Se utiliza para crear diseños de cuadrícula. Permite dividir una página en filas y columnas, creando una matriz de celdas donde se pueden colocar elementos HTML."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la propiedad para cambiar el espaciado entre letras de un texto?",
+              "options": [
+                "A) text-spacing",
+                "B) letter-spacing",
+                "C) word-spacing",
+                "D) line-height"
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "CSS-I6",
+                  "title": "Espaciado entre Letras",
+                  "summary": "La propiedad letter-spacing se usa para cambiar el espaciado entre las letras de un texto en CSS."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cómo se puede hacer que un elemento ocupe el 100% de la altura del viewport?",
+              "options": [
+                "A) height: 100%;",
+                "B) min-height: 100%;",
+                "C) height: 100vh;",
+                "D) min-height: 100vh;"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "CSS-I7",
+                  "title": "Altura del Viewport",
+                  "summary": "Para que un elemento ocupe el 100% de la altura del viewport, se usa la propiedad height con el valor 100vh."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué propiedad se usa para aplicar sombra a un elemento?",
+              "options": [
+                "A) box-shadow",
+                "B) shadow",
+                "C) element-shadow",
+                "D) text-shadow"
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "CSS-I8",
+                  "title": "Sombra de Caja",
+                  "summary": "La propiedad box-shadow se usa para aplicar sombra a un elemento en CSS."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es el propósito de la propiedad z-index?",
+              "options": [
+                "A) Cambiar la opacidad de un elemento",
+                "B) Cambiar la posición de un elemento",
+                "C) Cambiar el tamaño de un elemento",
+                "D) Cambiar la profundidad de un elemento"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "CSS-I9",
+                  "title": "Propiedad z-index",
+                  "summary": "La propiedad z-index en CSS se usa para cambiar la profundidad de un elemento, determinando su orden de apilamiento en el eje Z."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál de las siguientes opciones NO es un valor válido para la propiedad `display`?",
+              "options": [
+                "A) flex",
+                "B) static",
+                "C) dynamic",
+                "D) inline-block"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "CSS-I10",
+                  "title": "Valores de la Propiedad `display` en CSS",
+                  "summary": "La propiedad `display` en CSS especifica el tipo de caja de visualización de un elemento. Los valores válidos incluyen `flex`, `static`, `inline-block`,`none`, `grid`, entre otros. `dynamic` no es un valor válido para esta propiedad."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "categoryName": "React",
+      "level": [
+        {
+          "basic": [
+            {
+              "questionName": "¿Qué es React?",
+              "options": [
+                "A) Un lenguaje de programación",
+                "B) Una biblioteca de JavaScript para construir interfaces de usuario",
+                "C) Un sistema operativo",
+                "D) Un marco de backend"
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "React-B1",
+                  "title": "React",
+                  "summary": "React es una biblioteca de JavaScript para construir interfaces de usuario, desarrollada por Facebook."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué es un componente?",
+              "options": [
+                "A) Un archivo de configuración",
+                "B) Una biblioteca externa",
+                "C) Un método para actualizar el estado",
+                "D) Una pieza de código que renderiza una parte de la interfaz"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "React-B2",
+                  "title": "Componentes en React",
+                  "summary": "Un componente es una pieza de código que renderiza una parte de la interfaz. Los componentes pueden ser parametrizados, reutilizados y pueden contener su propio estado. En React los componentes se crean usando funciones o clases."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál de los siguientes es un Hook básico?",
+              "options": [
+                "A) useFetch",
+                "B) useEffect",
+                "C) useData",
+                "D) useFetchData"
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "React-B3",
+                  "title": "Hooks",
+                  "summary": "useEffect es un Hook básico en React que permite realizar efectos secundarios en componentes funcionales."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cómo se crea un componente funcional?",
+              "options": [
+                "A) function Component() { return <div></div>; }",
+                "B) create Component() { return <div></div>; }",
+                "C) var Component = <div></div>;",
+                "D) class Component { render() { return <div></div>; } }"
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "React-B4",
+                  "title": "Componentes Funcionales",
+                  "summary": "Un componente funcional en React se crea utilizando una función de JavaScript que devuelve JSX."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué es JSX?",
+              "options": [
+                "A) Una base de datos",
+                "B) Un tipo de archivo de configuración",
+                "C) Una extensión de sintaxis para JavaScript",
+                "D) Una herramienta de prueba"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "React-B5",
+                  "title": "JSX",
+                  "summary": "JSX es una extensión de sintaxis para JavaScript que permite escribir HTML dentro de JavaScript."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cómo se maneja el estado en un componente funcional?",
+              "options": [
+                "A) Con this.state",
+                "B) Con getState",
+                "C) Con setState",
+                "D) Con useState"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "React-B6",
+                  "title": "Estado en Componentes Funcionales",
+                  "summary": "En los componentes funcionales de React, el estado se maneja usando el Hook useState."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cómo añadir un evento a un componente?",
+              "options": [
+                "A) Usando la función addEventListener",
+                "B) Modificando directamente el DOM",
+                "C) Usando las propiedades de eventos de JSX como onClick",
+                "D) Usando el método attachEvent"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "React-B7",
+                  "title": "Añadir Eventos en React",
+                  "summary": "En React, se añaden eventos a un componente usando las propiedades de eventos de JSX, como onClick, onChange, onSubmit, etc. Estas propiedades se pasan como atributos en los elementos JSX."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué propiedad se usa para pasar datos a un componente hijo?",
+              "options": ["A) state", "B) props", "C) data", "D) context"],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "React-B8",
+                  "title": "Props",
+                  "summary": "En React, las props (propiedades) se utilizan para pasar datos de un componente padre a un componente hijo."
+                }
+              ]
+            },
+            {
+              "questionName": "Nombra una diferencia entre Props y Estado",
+              "options": [
+                "A) Props son inmutables, mientras que el estado es mutable.",
+                "B) Props son mutables, mientras que el estado es inmutable.",
+                "C) Props se utilizan para el manejo de eventos, mientras que el estado se utiliza para el manejo de datos.",
+                "D) Props son opcionales, mientras que el estado es obligatorio."
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "React-B9",
+                  "title": "Props vs Estado",
+                  "summary": "Una diferencia clave es que los props son inmutables y se pasan a los componentes para configurarlos, mientras que el estado es mutable y se utiliza para gestionar los datos internos del componente."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué Hook se utiliza para realizar efectos secundarios en un componente funcional?",
+              "options": [
+                "A) useSideEffect",
+                "B) useState",
+                "C) useReducer",
+                "D) useEffect"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "React-B10",
+                  "title": "Efectos Secundarios",
+                  "summary": "El Hook useEffect se utiliza para realizar efectos secundarios en componentes funcionales de React."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intermediate": [
+            {
+              "questionName": "¿Cuál es el propósito principal de los hooks?",
+              "options": [
+                "A) Manejar eventos",
+                "B) Crear componentes de clase",
+                "C) Optimizar el rendimiento",
+                "D) Agregar estado a componentes funcionales"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "REACT-I1",
+                  "title": "Hooks en React",
+                  "summary": "Los hooks permiten usar estado y otras características de React en componentes funcionales, sin necesidad de escribir una clase."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es el propósito del hook useRef?",
+              "options": [
+                "A) Manejar el estado del componente",
+                "B) Optimizar el rendimiento de renderizado",
+                "C) Crear referencias mutables que persisten a través de re-renderizados",
+                "D) Crear efectos secundarios"
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "REACT-I2",
+                  "title": "Hook useRef",
+                  "summary": "useRef es un hook que devuelve un objeto mutable cuya propiedad .current se inicializa con el argumento pasado. El objeto devuelto persistirá durante toda la vida del componente. Es útil para guardar cualquier valor mutable que no cause un re-renderizado cuando se actualiza."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué es Virtual DOM en React?",
+              "options": [
+                "A) Una copia exacta del DOM real",
+                "B) Un árbol de objetos nativos que representa el DOM real",
+                "C) Es una biblioteca de React",
+                "D) Es una representación en memoria de la interfaz de usuario de una aplicación"
+              ],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "REACT-I8",
+                  "title": "Virtual DOM",
+                  "summary": "Es una representación en memoria de la interfaz de usuario de una aplicación React, que permite actualizaciones eficientes del DOM real, mejorando el rendimiento y la flexibilidad de la aplicación.."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es el propósito de los hooks personalizados (custom hooks)?",
+              "options": [
+                "A) Para manejar eventos de usuario.",
+                "B) Para reutilizar lógica de estado entre componentes.",
+                "C) Para definir el ciclo de vida de un componente.",
+                "D) Para renderizar listas de elementos."
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "REACT-I4",
+                  "title": "Hooks Personalizados",
+                  "summary": "Los hooks personalizados se crean para encapsular y reutilizar lógica de estado o efectos entre componentes. Permiten compartir código entre diferentes componentes sin necesidad de utilizar componentes de orden superior o render props."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué es Context API?",
+              "options": [
+                "A) Una API para el manejo de rutas.",
+                "B) Una API para manejar el estado global.",
+                "C) Una API para realizar peticiones HTTP.",
+                "D) Una API para gestionar efectos secundarios."
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "REACT-I5",
+                  "title": "Context API",
+                  "summary": "La Context API permite pasar datos a través del árbol de componentes sin tener que pasar props manualmente en cada nivel, facilitando el manejo del estado global."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué es un Higher-Order Component (HOC)?",
+              "options": [
+                "A) Un componente que realiza peticiones HTTP.",
+                "B) Una función que recibe un componente y devuelve un nuevo componente.",
+                "C) Un componente que maneja rutas.",
+                "D) Un hook que maneja el estado."
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "REACT-I6",
+                  "title": "Higher-Order Components",
+                  "summary": "Un Higher-Order Component es una función que toma un componente y devuelve un nuevo componente, añadiendo funcionalidad adicional al componente original."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué es un Fragment?",
+              "options": [
+                "A) Un componente de orden superior.",
+                "B) Un tipo especial de prop.",
+                "C) Una forma de devolver múltiples elementos hijos sin agregar nodos adicionales al DOM.",
+                "D) Una función de gancho para manejar el ciclo de vida del componente."
+              ],
+              "answer": "C",
+              "explanation": [
+                {
+                  "id": "REACT-I7",
+                  "title": "Fragment en React",
+                  "summary": "Un Fragment en React permite agrupar múltiples elementos hijos sin agregar nodos adicionales al DOM, utilizando <React.Fragment> o la sintaxis abreviada <>."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuál es la principal ventaja de usar React.memo?",
+              "options": [
+                "A) Agregar estado a componentes funcionales",
+                "B) Prevenir renderizados innecesarios en componentes funcionales",
+                "C) Manejar efectos secundarios",
+                "D) Manejar formularios de manera más eficiente."
+              ],
+              "answer": "B",
+              "explanation": [
+                {
+                  "id": "REACT-I8",
+                  "title": "Memorización",
+                  "summary": "La memoización en React es una técnica para evitar renderizaciones innecesarias mediante el almacenamiento en caché de resultados. Esto se puede lograr utilizando React.memo y useMemo."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Qué hook se usa para manejar formularios controlados?",
+              "options": [
+                "A) useState",
+                "B) useForm",
+                "C) useEffect",
+                "D) useReducer"
+              ],
+              "answer": "A",
+              "explanation": [
+                {
+                  "id": "REACT-I9",
+                  "title": "Manejo de Formularios",
+                  "summary": "El hook useState se usa para manejar formularios controlados en React, permitiendo gestionar el estado de los inputs."
+                }
+              ]
+            },
+            {
+              "questionName": "¿Cuántos useEffect puede tener un componente?",
+              "options": ["A) Uno", "B) Dos", "C) Tres", "D) Los necesarios"],
+              "answer": "D",
+              "explanation": [
+                {
+                  "id": "REACT-I10",
+                  "title": "useEffect en Componentes",
+                  "summary": "Aunque normalmente los componentes de React solo cuentan con un useEffect lo cierto es que podemos tener tantos useEffect como queramos en un componente. Cada uno de ellos se ejecutará cuando se renderice el componente o cuando cambien las dependencias del efecto."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
