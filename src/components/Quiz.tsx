@@ -35,7 +35,7 @@ const Quiz = () => {
   } = useNextQuestion(isReset);
 
   return (
-    <section className="w-full h-screen bg-gradient-to-tl from-bg-primary to-primary md:overflow-hidden lg:bg-gradient-to-r lg:from-bg-primary lg:to-primary">
+    <section className="w-full min-h-lvh  bg-gradient-to-tl from-bg-primary to-primary md:h-screen  md:overflow-hidden lg:bg-gradient-to-r lg:from-bg-primary lg:to-primary">
       <article className="flex flex-col justify-evenly items-center ">
         <div className="w-full h-28 flex flex-col justify-center text-center md:bg-primary/30 md:h-32 lg:w-4/5 lg:mb-5 lg:rounded-br-xl lg:rounded-bl-xl lg:shadow-xl lg:shadow-primary/60 xl:w-1/2">
           <h2 className="font-bold text-4xl mb-3 text-primary-text md:tracking-widest lg:text-5xl">
@@ -45,14 +45,12 @@ const Quiz = () => {
             Selecciona una categoría
           </h3>
         </div>
-
         <Categories
           handleCategory={handleCategory}
           visibilityCategory={visibilityCategory}
           isActiveCategory={isActiveCategory}
           isDisabledCategory={isDisabledCategory}
         />
-
         <Levels
           isActiveLevel={isActiveLevel}
           isDisabledLevel={isDisabledLevel}
@@ -62,9 +60,9 @@ const Quiz = () => {
       </article>
 
       <article className={`w-full flex flex-col justify-evenly items-center`}>
-        <figure className={`w-2/3 md:w-80 xl:w-[350px] relative`}>
+        <figure className={`w-2/3  md:w-80 xl:w-[350px]`}>
           <img
-            className={`w-full drop-shadow-filter  absolute top-0 ${
+            className={`w-full drop-shadow-filter ${
               idCategory !== 0 && "animate-outImage"
             }`}
             src={IMAGEQUIZ}
@@ -72,14 +70,13 @@ const Quiz = () => {
           />
 
           <img
-            className={`w-full drop-shadow-filter absolute top-0 ${
+            className={`w-full drop-shadow-filter ${
               isVisibleImg ? "block animate-fadeIn" : "hidden"
             }`}
             src={IMAGEINNOVA}
             alt="imagen-quiz"
           />
         </figure>
-
         <Questions
           questions={questions}
           handleResponse={handleResponse}
